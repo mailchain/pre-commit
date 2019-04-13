@@ -1,0 +1,5 @@
+-   id: make-addlicense
+    name: 'make addlicense'
+    entry: run-addlicense.sh
+    files: '\.go$'
+    language: 'script'
