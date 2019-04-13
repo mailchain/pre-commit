@@ -1,5 +1,5 @@
--   id: make-addlicense
-    name: 'make addlicense'
-    entry: run-addlicense.sh
+-   id: make-license
+    name: 'make license'
+    entry: run-make-license.sh
     files: '\.go$'
     language: 'script'
