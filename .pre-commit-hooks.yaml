@@ -3,3 +3,9 @@
     entry: run-add-license.sh
     files: '\.go$'
     language: 'script'
+-   id: generate-api-docs
+    name: 'generate-api-docs'
+    entry: run-generate-api-docs.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go build`, requires golang"
