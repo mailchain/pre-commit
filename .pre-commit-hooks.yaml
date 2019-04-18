@@ -6,6 +6,6 @@
 -   id: generate-api-docs
     name: 'generate-api-docs'
     entry: run-generate-api-docs.sh
-    files: '\.go$'
+    files: internal/pkg/http/.*\.go
     language: 'script'
     description: "Runs `go build`, requires golang"
