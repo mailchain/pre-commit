@@ -8,4 +8,10 @@
     entry: run-generate-api-docs.sh
     files: internal/pkg/http/.*\.go
     language: 'script'
-    description: "Runs `go build`, requires golang"
+    description: "Runs `go-swagger`, requires golang"
+-   id: generate-mermaid-diagrams
+    name: 'generate-mermaid-diagrams'
+    entry: run-generate-mermaid-diagrams.sh
+    files: '\.mmd$'
+    language: 'script'
+    description: "Runs `mermaid.cli`, requires docker"
