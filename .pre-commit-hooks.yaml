@@ -15,3 +15,8 @@
     files: '\.mmd$'
     language: 'script'
     description: "Runs `mermaid.cli`, requires docker"
+-   id: go-mod-tidy
+    name: 'run go mody tidy'
+    entry: run-go-mod-tidy.sh
+    files: '\.go$'
+    language: 'script'
